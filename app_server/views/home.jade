@@ -1,0 +1,59 @@
+extends layout
+
+block content
+  #banner.page-header
+    .row
+      .col-lg-6
+        h1 Rewrite
+  .row
+    .col-xs-12.col-sm-8
+      .row
+        .col-xs-12
+          .panel.panel-primary
+            .panel-heading
+              h4.panel-title 
+                a(href='/edit') Josh's Resume
+            .panel-body
+              span.label.label-info
+                span.glyphicon.glyphicon-ok
+                | &nbsp; Owner
+              | &nbsp;
+              span.label.label-primary
+                span.glyphicon.glyphicon-ok
+                | &nbsp; Job_Search 
+              | &nbsp;
+      .row
+        .col-xs-12
+          .panel.panel-primary
+            .panel-heading
+              h4.panel-title 
+                a(href='/edit') Civis Cover Letter
+            .panel-body
+              span.label.label-info
+                span.glyphicon.glyphicon-ok
+                | &nbsp; Owner
+              | &nbsp;
+              span.label.label-primary
+                span.glyphicon.glyphicon-ok
+                | &nbsp; Job_Search 
+              | &nbsp;
+      .row
+        .col-xs-12
+          .panel.panel-primary
+            .panel-heading
+              h4.panel-title 
+                a(href='/edit') Day in the life of Greg.
+            .panel-body
+              span.label.label-primary
+                span.glyphicon.glyphicon-ok
+                | &nbsp; Fiction 
+              | &nbsp;
+
+    .col-xs-12.col-sm-4
+      h3 Notifications 
+      ul.list-group
+        li.list-group-item Mathew commented on 
+          a(href='/edit') Josh's Resume.
+        li.list-group-item Greg confirmed the change you made to 
+          a(href='/edit') Day in the life of Greg. 
+
